@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/baseballGame.css" />
+    <title>숫자야구</title>
+  </head>
+  <body>
+    <header>
+      <h1>[ 숫 자 야 구 ]</h1>
+      <table>
+        <tr>
+          <th>차시</th>
+          <td>1차시</td>
+          <td>2차시</td>
+          <td>3차시</td>
+          <td>4차시</td>
+          <td>5차시</td>
+          <td>6차시</td>
+          <td>7차시</td>
+          <td>8차시</td>
+          <td>9차시</td>
+          <td>10차시</td>
+        </tr>
+        <tr>
+          <th>선택값</th>
+          <td id="choice1"></td>
+          <td id="choice2"></td>
+          <td id="choice3"></td>
+          <td id="choice4"></td>
+          <td id="choice5"></td>
+          <td id="choice6"></td>
+          <td id="choice7"></td>
+          <td id="choice8"></td>
+          <td id="choice9"></td>
+          <td id="choice10"></td>
+        </tr>
+        <tr>
+          <th>스코어</th>
+          <td id="score1"></td>
+          <td id="score2"></td>
+          <td id="score3"></td>
+          <td id="score4"></td>
+          <td id="score5"></td>
+          <td id="score6"></td>
+          <td id="score7"></td>
+          <td id="score8"></td>
+          <td id="score9"></td>
+          <td id="score10"></td>
+        </tr>
+      </table>
+    </header>
+
+    <main>
+      <div id="sendInput">
+        <input
+          id="numbers"
+          type="text"
+          placeholder="3자리 숫자를 입력하세요."
+        />
+        <button id="sendValue" onclick="checkAnswerEvent()">입력</button>
+        <button id="reset" onclick="gameResetEvent()">리셋</button>
+      </div>
+      <div id="buttonSet">
+        <button onclick="sendValueEvent(1)">1</button>
+        <button onclick="sendValueEvent(2)">2</button>
+        <button onclick="sendValueEvent(3)">3</button>
+        <button onclick="sendValueEvent(4)">4</button>
+        <button onclick="sendValueEvent(5)">5</button>
+        <button onclick="sendValueEvent(6)">6</button>
+        <button onclick="sendValueEvent(7)">7</button>
+        <button onclick="sendValueEvent(8)">8</button>
+        <button onclick="sendValueEvent(9)">9</button>
+      </div>
+    </main>
+
+    <p id="showMe"></p>
+    <script src="/src/js/baseballGame.js"></script>
+  </body>
+</html>

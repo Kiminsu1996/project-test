@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer {
+  text-align: center;
+}
+#startButton {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+#bigLeftBox {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#bigRightBox {
+  width: 300px;
+  height: 300px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#answer {
+  display: none;
+  font-size: 40px;
+}
+
+#smallLeftBox0 {
+  background-position-x: 0;
+  background-position-y: 0;
+}
+#smallLeftBox1 {
+  background-position-x: -100px;
+  background-position-y: 0;
+}
+#smallLeftBox2 {
+  background-position-x: -200px;
+  background-position-y: 0;
+}
+#smallLeftBox3 {
+  background-position-x: 0;
+  background-position-y: -100px;
+}
+#smallLeftBox4 {
+  background-position-x: -100px;
+  background-position-y: -100px;
+}
+#smallLeftBox5 {
+  background-position-x: -200px;
+  background-position-y: -100px;
+}
+#smallLeftBox6 {
+  background-position-x: 0;
+  background-position-y: -200px;
+}
+#smallLeftBox7 {
+  background-position-x: -100px;
+  background-position-y: -200px;
+}
+#smallLeftBox8 {
+  background-position-x: -200px;
+  background-position-y: -200px;
+}
